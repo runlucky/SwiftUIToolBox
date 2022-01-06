@@ -13,6 +13,7 @@
 		1981C7712785B88C00532A19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1981C7702785B88C00532A19 /* Preview Assets.xcassets */; };
 		1981C77B2785B88C00532A19 /* SwiftUIToolBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981C77A2785B88C00532A19 /* SwiftUIToolBoxTests.swift */; };
 		1981C7942785BBE100532A19 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981C7932785BBE100532A19 /* ViewExtensions.swift */; };
+		1981C7962785D39200532A19 /* PublisherExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981C7952785D39200532A19 /* PublisherExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		1981C7762785B88C00532A19 /* SwiftUIToolBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIToolBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1981C77A2785B88C00532A19 /* SwiftUIToolBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToolBoxTests.swift; sourceTree = "<group>"; };
 		1981C7932785BBE100532A19 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		1981C7952785D39200532A19 /* PublisherExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		1981C75D2785B88B00532A19 = {
 			isa = PBXGroup;
 			children = (
+				1981C7952785D39200532A19 /* PublisherExtensions.swift */,
 				1981C7682785B88B00532A19 /* SwiftUIToolBox */,
 				1981C7792785B88C00532A19 /* SwiftUIToolBoxTests */,
 				1981C7672785B88B00532A19 /* Products */,
@@ -202,6 +205,7 @@
 			files = (
 				1981C76C2785B88B00532A19 /* ContentView.swift in Sources */,
 				1981C7942785BBE100532A19 /* ViewExtensions.swift in Sources */,
+				1981C7962785D39200532A19 /* PublisherExtensions.swift in Sources */,
 				1981C76A2785B88B00532A19 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
